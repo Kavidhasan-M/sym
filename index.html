@@ -63,7 +63,7 @@
         <br>
         
         <div class="btns">
-            <a href="" class="about-btn">About us</a>
+            <a href="#about-us" class="about-btn">About us</a>
             <a href="" class="bus-btn">Bus route</a>
 
         </div>
@@ -75,41 +75,61 @@
     <br>
     <br>
    
-    <section>
-        <p>Events</p>
+    <section data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true">
+        <p class="title">Events</p>
 
         <div class="events">
-            <a href="" class="pp">PAPER PRESENTATION</a>
+            <a href="./paper-pres.html" class="pp">PAPER PRESENTATION</a>
             <hr>
-            <a href="" class="info">INFOTECHWHIZ</a>
+            <a href="./infotechwhiz.html" class="info">INFOTECHWHIZ</a>
             <hr>
-            <a href="" class="memo">MEMORY LEAGUE</a>
+            <a href="./mem-league.html" class="memo">MEMORY LEAGUE</a>
             <hr>
-            <a href="" class="fun">FUN O' CODE</a>
+            <a href="./funocode.html" class="fun">FUN O' CODE</a>
             <hr>
-            <a href="" class="hld">HIGH LEVEL DESIGN</a>
+            <a href="./hld.html" class="hld">HIGH LEVEL DESIGN</a>
             <hr>
         </div>
 
     </section>
 
 
+    <br>
 
 
+    <section>
+        <div id="about-us">
+            <p class="title">About us</p>
+            <img src="./Assets/team..gif" alt="">
+            <p class="about-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ad sint quisquam eveniet veritatis minima quas at explicabo. 
+                Quidem consequuntur impedit mollitia fugiat magni consectetur hic tenetur nulla itaque quia!</p>
+        </div>
 
 
-    <script>
-        $(window).scroll(function () {
-                var myVideo = document.getElementById("vid");
+    </section>
+    
+    
+    <footer>
+        <div class="btns">
+            <a href="" class="wa-btn">Join Whatsapp</a>
+            <a href="https://www.instagram.com/techcrezenza_2k22/" class="ig-btn">Follow Instagram</a>
+        
+        </div>
 
-                if ($(window).scrollTop() > -1 && $(window).scrollTop() < 975) {
-                    if (myVideo.played.length === 0)
-                        myVideo.play();
-                } else {
-                    myVideo.pause();
-                }
-            })
-    </script>
+        <br>
+        <br>
+        <br>
+        
+        <p>Made by <a href="">Kavidhasan M</a></p>
+        
+        <br>
+    </footer>
+
 
 
 

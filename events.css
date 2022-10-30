@@ -1,0 +1,44 @@
+@font-face {
+    font-family: fav;
+    src: url(./Fonts/MonumentExtended-Ultrabold.otf);
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+section{
+    padding: 3% 16%;
+}
+
+.event-title{
+    font-family: 'fav','Inter Tight', sans-serif;
+    font-size: 60px;
+}
+
+.title-1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title-2{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    section{
+        padding: 3% 4%;
+    }
+
+    .event-title{
+        font-size: 32px;
+    }
+
+}
