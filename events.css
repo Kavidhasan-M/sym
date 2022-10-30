@@ -29,6 +29,39 @@ section{
 
 }
 
+section a.register-btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 32px;
+    border: 2px solid #3a439d;
+    background-color: #3a439d;
+    box-shadow: 0px 5px #242a68;
+    transition: all .4s ease-in-out;
+}
+
+section a.register-btn:hover{
+    background-color: #3841a0;
+    box-shadow: 0px 2px #242a68;
+}
+
+p span{
+    font-weight: 500;
+}
+
+.back a button {
+    font-size: 24px;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: all .3s ease-in;
+    background-color: rgb(32, 32, 32);
+}
+
+
+
 
 
 @media only screen and (max-width: 600px) {
