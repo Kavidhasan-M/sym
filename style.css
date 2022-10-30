@@ -4,10 +4,11 @@
 }
 
 body{
-    font-family: fav, sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     margin: 0%;
     padding: 0%;
     background-color: #000;
+    color: #fff;
 
 }
 
@@ -36,7 +37,7 @@ main p{
 }
 
 
-.vid{
+.vid,section{
     padding: 2% 8%;
 }
 
@@ -61,6 +62,78 @@ main p{
     padding: 0%;
 }
 
+.btns{
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+}
+
+.btns a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    margin: 8px;
+    
+}
+
+.btns a.about-btn{
+    border: 2px solid #3a439d;
+    background-color: #3a439d;
+    box-shadow: 0px 5px #242a68;
+    transition: all .4s ease-in-out;
+}
+
+.btns a.about-btn:hover{
+    background-color: #434ca8;
+    border-color: #434ca8;
+    box-shadow: 0px 2px #242a68;
+    
+}
+
+.btns a.bus-btn{
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0px 5px gray;
+    transition: all .4s ease-in-out;
+}
+
+.btns a.bus-btn:hover{
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 2px gray;
+    
+}
+
+
+.events a{
+    display: block;
+    font-family: 'fav','Inter Tight', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.events a.pp:hover{
+    color: #fa905f;
+}
+
+.events a.info:hover{
+    color: #7CD87A;
+}
+
+.events a.memo:hover{
+    color: #FCE04A;
+}
+
+.events a.fun:hover{
+    color: #EF626E;
+}
+
+.events a.hld:hover{
+    color: #5F97FA;
+}
 
 
 
@@ -71,6 +144,7 @@ main p{
     }
 
     main p{
+        font-family: 'fav', 'Inter Tight', sans-serif;
         word-break: break-all;
     }
     
@@ -78,4 +152,12 @@ main p{
         display: none;        
     }
 
+    section{
+        padding: 2% 4%;
+    }
+
+    .events a{
+        font-size: 40px;
+
+    }
 }
