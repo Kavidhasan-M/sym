@@ -3,7 +3,7 @@
     src: url(./Fonts/MonumentExtended-Ultrabold.otf);
 }
 
-*{
+html{
     scroll-behavior: smooth;
 }
 
@@ -16,7 +16,67 @@ body{
 
 }
 
-.title{
+.bg{
+    background-color: #6048a1;
+}
+
+nav{
+    padding: 1% 2% !important;
+}
+
+.container-fluid p{
+    padding-top: 10px !important;
+    font-weight: 500;
+}
+
+.container-fluid p span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav img{
+    width: 70px;
+    height: 70px;
+}
+
+.d-flex img.iso {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+/* .d-flex img.years{
+    width: 40px;
+    height: 50px;
+    margin-left: 10px;
+} */
+
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+
+.nav-item .nav-link{
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.nav-item .nav-link:hover{
+    color: rgb(228, 228, 228);
+}
+
+.navbar-toggler i{
+    color: #fff;
+}
+
+button.navbar-toggler.collapsed:focus{
+    outline: none;
+    border: none;
+}
+
+
+
+#title{
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -76,8 +136,7 @@ section {
 }
 
 .clg-logo img.years{
-    width: 40px;
-    height: 50px;
+    
     padding: 0%;
 }
 
@@ -302,6 +361,29 @@ footer p a{
 
 
 @media only screen and (max-width: 600px) {
+
+
+    .navbar-nav {
+        text-align: center;
+        background-color: #000;
+    }
+
+    .navbar-nav .nav-item{
+        padding-right: 20px;
+        transition: all .2s ease-in-out;
+    }
+
+    .navbar-nav .nav-item:hover{
+        background-color: rgb(10, 10, 10);
+    }
+
+    .container-fluid p{
+        text-align: center;
+    }
+    
+    .d-flex img{
+        display: none;
+    }
 
     header{
         display: none;
