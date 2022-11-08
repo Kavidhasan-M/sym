@@ -74,6 +74,14 @@ button.navbar-toggler.collapsed:focus{
     border: none;
 }
 
+marquee{
+    background-color: #6048a1;
+}
+
+marquee a{
+    color: #e260d7;
+}
+
 
 
 #title{
